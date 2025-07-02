@@ -21,4 +21,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
+  base: '/DEMO-Dubra/', // Añadido para GitHub Pages
 })
