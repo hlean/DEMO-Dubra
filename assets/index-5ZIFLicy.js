@@ -59952,6 +59952,7 @@ function App() {
   const hideFooterPrefixes = ["/user", "/admin"];
   const showFooter = !hideFooterPrefixes.some((prefix2) => location.pathname.startsWith(prefix2));
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(BrowserRouter, { basename: "/DEMO-Dubra", children: [
+    "  ",
     /* @__PURE__ */ jsxRuntimeExports.jsx(Header, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsxs(Routes, { children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(HomePage, {}) }),
