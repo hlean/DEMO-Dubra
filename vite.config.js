@@ -21,5 +21,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
-  base: '/DEMO-Dubra/', // Añadido para GitHub Pages
+  base: process.env.NODE_ENV === 'production' ? '/DEMO-Dubra/' : '/', // Asegura que solo se aplique en producción
 })
