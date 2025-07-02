@@ -15287,44 +15287,20 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$m = [
+const __iconNode$k = [
   ["path", { d: "M3 12h18", key: "1i2n21" }],
   ["path", { d: "M3 18h18", key: "1h113x" }],
   ["path", { d: "M3 6h18", key: "d0wm0j" }]
 ];
-const AlignJustify = createLucideIcon("align-justify", __iconNode$m);
+const AlignJustify = createLucideIcon("align-justify", __iconNode$k);
 /**
  * @license lucide-react v0.508.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$l = [["path", { d: "M6 9h6V5l7 7-7 7v-4H6V9z", key: "7fvt9c" }]];
-const ArrowBigRight = createLucideIcon("arrow-big-right", __iconNode$l);
-/**
- * @license lucide-react v0.508.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$k = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m4.9 4.9 14.2 14.2", key: "1m5liu" }]
-];
-const Ban = createLucideIcon("ban", __iconNode$k);
-/**
- * @license lucide-react v0.508.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$j = [
-  ["path", { d: "M8 2v4", key: "1cmpym" }],
-  ["path", { d: "M16 2v4", key: "4m81vk" }],
-  ["rect", { width: "18", height: "18", x: "3", y: "4", rx: "2", key: "1hopcy" }],
-  ["path", { d: "M3 10h18", key: "8toen8" }]
-];
-const Calendar = createLucideIcon("calendar", __iconNode$j);
+const __iconNode$j = [["path", { d: "M6 9h6V5l7 7-7 7v-4H6V9z", key: "7fvt9c" }]];
+const ArrowBigRight = createLucideIcon("arrow-big-right", __iconNode$j);
 /**
  * @license lucide-react v0.508.0 - ISC
  *
@@ -15332,10 +15308,10 @@ const Calendar = createLucideIcon("calendar", __iconNode$j);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$i = [
-  ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
-  ["path", { d: "m19 9-5 5-4-4-3 3", key: "2osh9i" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "m4.9 4.9 14.2 14.2", key: "1m5liu" }]
 ];
-const ChartLine = createLucideIcon("chart-line", __iconNode$i);
+const Ban = createLucideIcon("ban", __iconNode$i);
 /**
  * @license lucide-react v0.508.0 - ISC
  *
@@ -15343,11 +15319,12 @@ const ChartLine = createLucideIcon("chart-line", __iconNode$i);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$h = [
-  ["ellipse", { cx: "12", cy: "5", rx: "9", ry: "3", key: "msslwz" }],
-  ["path", { d: "M3 5V19A9 3 0 0 0 21 19V5", key: "1wlel7" }],
-  ["path", { d: "M3 12A9 3 0 0 0 21 12", key: "mv7ke4" }]
+  ["path", { d: "M8 2v4", key: "1cmpym" }],
+  ["path", { d: "M16 2v4", key: "4m81vk" }],
+  ["rect", { width: "18", height: "18", x: "3", y: "4", rx: "2", key: "1hopcy" }],
+  ["path", { d: "M3 10h18", key: "8toen8" }]
 ];
-const Database = createLucideIcon("database", __iconNode$h);
+const Calendar = createLucideIcon("calendar", __iconNode$h);
 /**
  * @license lucide-react v0.508.0 - ISC
  *
@@ -15355,13 +15332,10 @@ const Database = createLucideIcon("database", __iconNode$h);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$g = [
-  ["path", { d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z", key: "1rqfz7" }],
-  ["path", { d: "M14 2v4a2 2 0 0 0 2 2h4", key: "tnqrlb" }],
-  ["path", { d: "M10 9H8", key: "b1mrlr" }],
-  ["path", { d: "M16 13H8", key: "t4e002" }],
-  ["path", { d: "M16 17H8", key: "z1uh3a" }]
+  ["path", { d: "M3 3v16a2 2 0 0 0 2 2h16", key: "c24i48" }],
+  ["path", { d: "m19 9-5 5-4-4-3 3", key: "2osh9i" }]
 ];
-const FileText = createLucideIcon("file-text", __iconNode$g);
+const ChartLine = createLucideIcon("chart-line", __iconNode$g);
 /**
  * @license lucide-react v0.508.0 - ISC
  *
@@ -15369,11 +15343,13 @@ const FileText = createLucideIcon("file-text", __iconNode$g);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$f = [
-  ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
-  ["path", { d: "M3 3v5h5", key: "1xhq8a" }],
-  ["path", { d: "M12 7v5l4 2", key: "1fdv2h" }]
+  ["path", { d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z", key: "1rqfz7" }],
+  ["path", { d: "M14 2v4a2 2 0 0 0 2 2h4", key: "tnqrlb" }],
+  ["path", { d: "M10 9H8", key: "b1mrlr" }],
+  ["path", { d: "M16 13H8", key: "t4e002" }],
+  ["path", { d: "M16 17H8", key: "z1uh3a" }]
 ];
-const History = createLucideIcon("history", __iconNode$f);
+const FileText = createLucideIcon("file-text", __iconNode$f);
 /**
  * @license lucide-react v0.508.0 - ISC
  *
@@ -15381,6 +15357,18 @@ const History = createLucideIcon("history", __iconNode$f);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$e = [
+  ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
+  ["path", { d: "M3 3v5h5", key: "1xhq8a" }],
+  ["path", { d: "M12 7v5l4 2", key: "1fdv2h" }]
+];
+const History = createLucideIcon("history", __iconNode$e);
+/**
+ * @license lucide-react v0.508.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$d = [
   ["path", { d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8", key: "5wwlr5" }],
   [
     "path",
@@ -15390,18 +15378,7 @@ const __iconNode$e = [
     }
   ]
 ];
-const House = createLucideIcon("house", __iconNode$e);
-/**
- * @license lucide-react v0.508.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$d = [
-  ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
-  ["rect", { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" }]
-];
-const Mail = createLucideIcon("mail", __iconNode$d);
+const House = createLucideIcon("house", __iconNode$d);
 /**
  * @license lucide-react v0.508.0 - ISC
  *
@@ -15409,24 +15386,10 @@ const Mail = createLucideIcon("mail", __iconNode$d);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$c = [
-  [
-    "path",
-    {
-      d: "M15 22a1 1 0 0 1-1-1v-4a1 1 0 0 1 .445-.832l3-2a1 1 0 0 1 1.11 0l3 2A1 1 0 0 1 22 17v4a1 1 0 0 1-1 1z",
-      key: "1p1rcz"
-    }
-  ],
-  [
-    "path",
-    {
-      d: "M18 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 .601.2",
-      key: "mcbcs9"
-    }
-  ],
-  ["path", { d: "M18 22v-3", key: "1t1ugv" }],
-  ["circle", { cx: "10", cy: "10", r: "3", key: "1ns7v1" }]
+  ["path", { d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7", key: "132q7q" }],
+  ["rect", { x: "2", y: "4", width: "20", height: "16", rx: "2", key: "izxlao" }]
 ];
-const MapPinHouse = createLucideIcon("map-pin-house", __iconNode$c);
+const Mail = createLucideIcon("mail", __iconNode$c);
 /**
  * @license lucide-react v0.508.0 - ISC
  *
@@ -23334,14 +23297,7 @@ function useNavigateUnstable() {
   );
   return navigate;
 }
-var OutletContext = reactExports.createContext(null);
-function useOutlet(context) {
-  let outlet = reactExports.useContext(RouteContext).outlet;
-  if (outlet) {
-    return /* @__PURE__ */ reactExports.createElement(OutletContext.Provider, { value: context }, outlet);
-  }
-  return outlet;
-}
+reactExports.createContext(null);
 function useResolvedPath(to, { relative } = {}) {
   let { matches } = reactExports.useContext(RouteContext);
   let { pathname: locationPathname } = useLocation();
@@ -23730,9 +23686,6 @@ function DataRoutes({
   state
 }) {
   return useRoutesImpl(routes, void 0, state, future);
-}
-function Outlet(props) {
-  return useOutlet(props.context);
 }
 function Route(_props) {
   invariant$1(
@@ -26365,53 +26318,6 @@ const NavBar = ({ fields, extraFields, extraButton, menuRef, isOpen, Logo: Logo2
     )
   ] });
 };
-const DashboardPage = () => {
-  const fields = [
-    { text: "DashBoard", link: "/user/dashboard", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Database, {}) },
-    { text: "Gestioná tus Pedidos", link: "/user/placeOrder", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(PackageSearch, {}) },
-    { text: "Creá una nueva Orden", link: "/user/newOrder", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(PackagePlus, {}) },
-    { text: "Personalizá tu Perfil", link: "/user/profile", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(User, {}) },
-    { text: "Ponete en Contacto", link: "/user/contact", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, {}) }
-  ];
-  const [isOpen, setIsOpen] = reactExports.useState(false);
-  const menuRef = reactExports.useRef(null);
-  reactExports.useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "bg-dubraText min-h-screen flex pt-25", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-6 w-full ", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
-        ResponsiveNavBar,
-        {
-          fields,
-          menuRef,
-          className: `justify-start ${isOpen ? "opacity-100 visible bg-black/50" : "opacity-0 invisible"} `,
-          Logo: true
-        }
-      ),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "sm:col-span-1 bg-dubraPrimary max-md:hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        NavBar,
-        {
-          fields,
-          extraFields: [],
-          extraButton: [],
-          width: "full",
-          className: "flex-col py-5 w-full"
-        }
-      ) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:col-span-5 max-md:col-span-6 w-full", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed h-full flex items-center pb-25", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-dubraSecondary py-5 rounded-r hover:bg-dubraSecondary/80 md:hidden ", onClick: () => setIsOpen(!isOpen), children: /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowBigRight, {}) }) })
-  ] }) });
-};
 const Header = () => {
   const [isOpen, setIsOpen] = reactExports.useState(false);
   const menuRef = reactExports.useRef(null);
@@ -26677,52 +26583,6 @@ const Footer = () => {
       ] })
     ] })
   ] });
-};
-const AdminDashboardPage = () => {
-  const fields = [
-    { text: "DashBoard", link: "/admin/dashboard", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Database, {}) },
-    { text: "Gestioná tus Pedidos", link: "/admin/orderManager", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(PackageSearch, {}) },
-    { text: "Personalizá tu Perfil", link: "/admin/profile", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(User, {}) },
-    { text: "Ver Recorrido de Entregas", link: "/admin/map", icon: /* @__PURE__ */ jsxRuntimeExports.jsx(MapPinHouse, {}) }
-  ];
-  const [isOpen, setIsOpen] = reactExports.useState(false);
-  const menuRef = reactExports.useRef(null);
-  reactExports.useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "bg-dubraText min-h-screen flex pt-25", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-6 w-full ", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
-        ResponsiveNavBar,
-        {
-          fields,
-          menuRef,
-          className: `justify-start ${isOpen ? "opacity-100 visible bg-black/50" : "opacity-0 invisible"} `,
-          Logo: true
-        }
-      ),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "sm:col-span-1 bg-dubraPrimary max-md:hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        NavBar,
-        {
-          fields,
-          extraFields: [],
-          extraButton: [],
-          width: "full",
-          className: "flex-col py-5 w-full"
-        }
-      ) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "md:col-span-5 max-md:col-span-6 w-full p-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "fixed h-full flex items-center pb-25", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "bg-dubraSecondary py-5 rounded-r hover:bg-dubraSecondary/80 md:hidden ", onClick: () => setIsOpen(!isOpen), children: /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowBigRight, {}) }) })
-  ] }) });
 };
 const DashboardMetrics = () => {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: " w-full items-center flex flex-col", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid p-5 lg:grid-cols-2 2xl:grid-cols-4 gap-10 w-full max-md:justify-center", children: [
@@ -60809,16 +60669,12 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(HomePage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/login", element: /* @__PURE__ */ jsxRuntimeExports.jsx(LoginPage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/registrarse", element: /* @__PURE__ */ jsxRuntimeExports.jsx(RegisterPage, {}) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(Route, { path: "/user", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DashboardPage, {}), children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "dashboard", element: /* @__PURE__ */ jsxRuntimeExports.jsx(Dashboard, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "placeOrder", element: /* @__PURE__ */ jsxRuntimeExports.jsx(PlaceOrderPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "profile", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ProfilePage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "newOrder", element: /* @__PURE__ */ jsxRuntimeExports.jsx(NewOrderPage, {}) })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(Route, { path: "/admin", element: /* @__PURE__ */ jsxRuntimeExports.jsx(AdminDashboardPage, {}), children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "dashboard", element: /* @__PURE__ */ jsxRuntimeExports.jsx(AdminDashboard, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "map", element: /* @__PURE__ */ jsxRuntimeExports.jsx(AdminMapPage, {}) })
-      ] })
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/userdashboard", element: /* @__PURE__ */ jsxRuntimeExports.jsx(Dashboard, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/placedOrder", element: /* @__PURE__ */ jsxRuntimeExports.jsx(PlaceOrderPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/profile", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ProfilePage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/newOrder", element: /* @__PURE__ */ jsxRuntimeExports.jsx(NewOrderPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/admindashboard", element: /* @__PURE__ */ jsxRuntimeExports.jsx(AdminDashboard, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/map", element: /* @__PURE__ */ jsxRuntimeExports.jsx(AdminMapPage, {}) })
     ] }),
     showFooter && /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {})
   ] });
