@@ -1,4 +1,3 @@
-import { useAuth } from '@/context/AuthContext'
 import { History, Package } from 'lucide-react'
 import React from 'react'
 import OrderCard from './OrderCard'
@@ -17,8 +16,6 @@ const HistoryCard = () => {
 
   @@index([userId], map: "Order_userId_fkey")
 } */
-
-  const {user} = useAuth()
 
     const OrdersArray = [
         {user: user, createdAt:Date.now(), shippingsAmount: 5, orderStatus: 'Pendiente', orderId:1},
