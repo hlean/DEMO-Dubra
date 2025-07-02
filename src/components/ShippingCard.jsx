@@ -42,9 +42,6 @@ const ShippingCard = ({ shipping, onClose }) => {
                     <strong>Contacto:</strong> {shipping.contactName || 'N/A'} (
                     {shipping.contactPhone || 'N/A'})
                 </p>
-                <p>
-                    <strong>Transportista:</strong> {shipping.carrier}
-                </p>
                 <p className="text-sm mt-4">
                     <em>Última actualización:</em> {formattedDate}
                 </p>
