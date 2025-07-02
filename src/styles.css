@@ -1,0 +1,41 @@
+
+@font-face {
+  font-family: 'Louis George Cafe Light';
+  src: url('./assets//fonts/LouisGeorgeCafeLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer theme, base, components, utilities;
+@tailwind utilities;
+
+@layer components {
+
+  .bg-dubraPrimary {
+    @apply bg-dubraPrimary text-dubraText;
+  }
+
+  .bg-dubraSecondary {
+    @apply bg-dubraSecondary text-dubraText transition-transform duration-300;
+  }
+
+  .bg-dubraWhite{
+    @apply bg-dubraWhite text-dubraPrimary;
+  }
+
+}
+
+@theme {
+  --color-dubraPrimary: #001f45;
+  --color-dubraSecondary: #c84630;
+  --color-dubraText: #e9f2ef;
+  --color-dubraWhite: #fefefe;
+  --breakpoint-xs: 25rem;
+}
+
+@layer base {
+  body {
+    font-family: 'Louis George Cafe Light';
+  }
+}
+
